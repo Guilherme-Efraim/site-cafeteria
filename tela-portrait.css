@@ -1,0 +1,28 @@
+:root {
+    --main-color: #d3ad7f;
+    --black: #13131a;
+    --bg: #010103;
+    --btn-contraste: #2e2e30;
+    --border: 0.1rem solid rgba(255,255,255,0.3);
+    --text-color: rgb(255, 255, 255);
+    font-size: 10px;
+}
+
+a.logo > img {
+    height: 50px;
+}
+
+.navbar > a {
+    font-weight: 700;
+    padding: 3px 0.5rem;
+    color: var(--text-color);
+    font-size: 1.3rem;
+    border-radius: 10px;
+    /* background-color: yellow; */
+}
+
+div.icons > img {
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+}
