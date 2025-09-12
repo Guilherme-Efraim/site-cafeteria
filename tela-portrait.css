@@ -26,3 +26,46 @@ div.icons > img {
     width: 20px;
     border-radius: 5px;
 }
+
+.icons > img:hover {
+    width: 25px;
+    height: 25px;
+}
+
+div.home-container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+div.content {
+    max-width: 60rem;
+    color: var(--text-color);
+    text-align: left;
+}
+
+.content > h1 {
+    font-size: 3rem;
+}
+
+.content > p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-top: 1rem;
+    color: var(--text-color);
+    border-radius: 5px;
+    background-color: var(--main-color);
+}
+
+.btn:hover {
+    font-size: 1.7rem;
+}

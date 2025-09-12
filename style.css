@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --main-color: #d3ad7f;
     --black: #13131a;
@@ -9,6 +11,7 @@
 }
 
 * {
+    font-family: "Roboto", sans-serif;
     margin: 0px;
     padding: 0px;
     outline: none;
@@ -59,12 +62,50 @@ section.cabecalho {
 }
 
 .icons > img {
-    padding: 1px;
+    padding: 2px;
     border-radius: 10px;
     background-color: var(--main-color);
 }
 
-@media screen and (orientation: portrait) {
-    
+div.home-container {
+    background: url("./src/imagens/home-img.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
+.home-container section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    /* border: var(--border); */
+}
+
+div.content {
+    max-width: 60rem;
+    color: var(--text-color);
+}
+
+.content > h1 {
+    font-size: 4rem;
+}
+
+.content > p {
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-top: 1rem;
+    color: var(--text-color);
+    border-radius: 5px;
+    background-color: var(--main-color);
+}
+
+.btn:hover {
+    font-size: 1.7rem;
+}
