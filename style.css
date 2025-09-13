@@ -12,6 +12,7 @@
 
 * {
     font-family: "Roboto", sans-serif;
+    color: var(--text-color);
     margin: 0px;
     padding: 0px;
     outline: none;
@@ -32,6 +33,7 @@ header {
     right: 0;
     z-index: 99;
     border-bottom: var(--border);
+    background-color: var(--bg);
 }
 
 section {
@@ -108,4 +110,37 @@ div.content {
 
 .btn:hover {
     font-size: 1.7rem;
+}
+
+.titulo {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.titulo > span {
+    text-transform: uppercase;
+
+}
+
+div.container-flex {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    background-color: var(--black);
+}
+
+div.descricao > h1 {
+    font-size: 3rem;
+    /* padding: 1rem 0; */
+}
+
+div.descricao > p {
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-weight: 100;
 }

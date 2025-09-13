@@ -69,3 +69,20 @@ div.content {
 .btn:hover {
     font-size: 1.7rem;
 }
+
+div.container-flex {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 1.5rem;
+    padding: 1rem 1rem;
+    max-width: 500px;
+    background-color: var(--black);
+}
+
+div.image img {
+    width: 445px;
+    margin: auto;
+}
