@@ -26,3 +26,45 @@
     width: 35px;
     height: 35px;
 }
+
+/*----------------*/
+
+div.image > img {
+    border-radius: 10px;
+}
+
+
+
+/*----------------*/
+
+div.container-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 200px;
+    gap: 30px;
+    padding: 1rem;
+    /* background-color: yellow; */
+}
+
+div.grid-itens {
+    background-color: var(--black);
+    border-radius: 10px;
+}
+
+div.grid-itens img {
+    width: 100px;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+div.grid-itens > a {
+    font-size: 2rem;
+    height: 27px;
+    padding-top: 1rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}

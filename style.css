@@ -130,6 +130,7 @@ div.container-flex {
     align-items: center;
     gap: 1.5rem;
     max-width: 1200px;
+    border-radius: 10px;
     background-color: var(--black);
 }
 
@@ -139,8 +140,61 @@ div.descricao > h1 {
 }
 
 div.descricao > p {
-    padding: 1rem 0;
+    padding: 1rem 1rem;
+    text-align: justify;
     font-size: 1.6rem;
     line-height: 3rem;
     font-weight: 100;
+}
+
+div.descricao > a {
+    margin-left: 1rem;
+}
+
+/*-------------------*/
+
+div.container-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+    padding: 1rem;
+    /* background-color: yellow; */
+}
+
+div.grid-itens {
+    background-color: var(--black);
+    border-radius: 10px;
+}
+
+div.grid-itens img {
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+div.grid-itens > h2 {
+    text-align: center;
+}
+
+p.menu-preco {
+    margin: 0.5rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+p.menu-preco > span {
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-decoration: line-through;
+}
+
+div.grid-itens > a {
+    height: 30px;
+    padding-bottom: 1rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
 }
