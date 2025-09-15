@@ -242,4 +242,26 @@ div.grid-itens > a {
     font-weight: 400;
 }
 
+/*---------Address----------*/
+
+.address > iframe {
+    display: block;
+    margin: auto;
+}
+
+
+.rodape {
+    background-color: var(--black);
+    padding: 1rem;
+    text-align: center;
+}
+
+.rodape > .redes-sociais > a {
+    font-size: 3.5rem;
+    margin: 0 2rem;
+}
+
+.rodape > .redes-sociais > a:hover {
+    font-size: 2.5rem;
+}
 
