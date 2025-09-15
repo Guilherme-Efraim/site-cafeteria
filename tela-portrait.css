@@ -86,3 +86,10 @@ div.image img {
     width: 445px;
     margin: auto;
 }
+
+section#review > .container-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+

@@ -29,11 +29,18 @@
 
 /*----------------*/
 
+div.container-flex {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    border-radius: 10px;
+    background-color: var(--black);
+}
+
 div.image > img {
     border-radius: 10px;
 }
-
-
 
 /*----------------*/
 

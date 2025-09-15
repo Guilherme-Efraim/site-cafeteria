@@ -6,6 +6,7 @@
     --bg: #010103;
     --btn-contraste: #2e2e30;
     --border: 0.1rem solid rgba(255,255,255,0.3);
+    --border02: 0.1rem solid #d3ad7f9d;
     --text-color: rgb(255, 255, 255);
     font-size: 10px;
 }
@@ -21,6 +22,8 @@
     text-decoration: none;
     text-transform: capitalize;
 }
+
+/*---------Header----------*/
 
 body {
     background-color: var(--bg);
@@ -56,7 +59,6 @@ section.cabecalho {
     color: var(--text-color);
     font-size: 1.5rem;
     border-radius: 10px;
-    /* background-color: yellow; */
 }
 
 .navbar > a:hover {
@@ -69,6 +71,8 @@ section.cabecalho {
     background-color: var(--main-color);
 }
 
+/*---------Home----------*/
+
 div.home-container {
     background: url("./src/imagens/home-img.jpg");
     background-position: center;
@@ -79,7 +83,6 @@ div.home-container {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    /* border: var(--border); */
 }
 
 div.content {
@@ -125,6 +128,8 @@ div.content {
 
 }
 
+/*---------About----------*/
+
 div.container-flex {
     display: flex;
     align-items: center;
@@ -136,7 +141,6 @@ div.container-flex {
 
 div.descricao > h1 {
     font-size: 3rem;
-    /* padding: 1rem 0; */
 }
 
 div.descricao > p {
@@ -151,7 +155,7 @@ div.descricao > a {
     margin-left: 1rem;
 }
 
-/*-------------------*/
+/*---------Menu----------*/
 
 div.container-grid {
     display: grid;
@@ -159,7 +163,6 @@ div.container-grid {
     grid-template-rows: 200px 200px;
     gap: 20px;
     padding: 1rem;
-    /* background-color: yellow; */
 }
 
 div.grid-itens {
@@ -198,3 +201,45 @@ div.grid-itens > a {
     margin: auto;
     border-radius: 0px 0px 10px 10px;
 }
+
+/*---------Avaliações----------*/
+
+#review > .container-grid {
+    grid-template-rows: auto;
+}
+
+#review > .container-grid > .grid-itens {
+    padding: 1.2rem;
+    text-align: center;
+    border: var(--border02);
+}
+
+#review > .container-grid > .grid-itens > p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 1rem 0;
+}
+
+#review > .container-grid > .grid-itens > img.aspas {
+    border-radius: 0%;
+    margin-bottom: 1rem;
+    height: 40px;
+    width: 30px;
+}
+
+#review > .container-grid > .grid-itens > img {
+    margin: auto;
+    margin-top: 1rem;
+    display: block;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+#review > .container-grid > .grid-itens > h2 {
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
